@@ -1,8 +1,11 @@
 import React from 'react'
+import MuiTypography from './components/MuiTypography'
 
 const App = () => {
   return (
-    <h1>Hello From App JSX </h1>
+    <>
+      <MuiTypography/>
+    </>
   )
 }
 
