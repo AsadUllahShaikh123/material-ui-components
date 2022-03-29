@@ -1,6 +1,7 @@
 import React from 'react'
 // import MuiButton from './components/MuiButton'
-import MuiButtonGroup from './components/MuiButtonGroup'
+// import MuiButtonGroup from './components/MuiButtonGroup'
+import MuiToggle from './components/MuiToggle'
 // import MuiTypography from './components/MuiTypography'
 
 const App = () => {
@@ -8,7 +9,8 @@ const App = () => {
     <>
       {/* <MuiTypography/> */}
       {/* <MuiButton/> */}
-      <MuiButtonGroup/>
+      {/* <MuiButtonGroup/> */}
+      <MuiToggle/>
     </>
   )
 }
