@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiTextField from './components/MuiTextField'
+import MuiSelect from './components/MuiSelect'
+// import MuiTextField from './components/MuiTextField'
 // import MuiButton from './components/MuiButton'
 // import MuiButtonGroup from './components/MuiButtonGroup'
 // import MuiToggle from './components/MuiToggle's
@@ -12,7 +13,8 @@ const App = () => {
       {/* <MuiButton/> */}
       {/* <MuiButtonGroup/> */}
       {/* <MuiToggle/> */}
-      <MuiTextField/>
+      {/* <MuiTextField/> */}
+      <MuiSelect/>
     </>
   )
 }
