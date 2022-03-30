@@ -5,7 +5,8 @@ const MuiSelect = () => {
   /**
    * Select used to collect user input
    * We will Use TextField as a "select" and MenuItem as "Option"
-   * we are using sx props for autowidth of TextField
+   * TextField encapsulates several other components
+   * we are using sx props for autowidth of TextField 
    */
 
   let [data, setData] = useState("");
