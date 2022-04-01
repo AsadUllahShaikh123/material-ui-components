@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiAutocomplete from './components/MuiAutocomplete'
+import MuiBox from './components/MuiBox'
+// import MuiAutocomplete from './components/MuiAutocomplete'
 // import MuiRatings from './components/MuiRatings'
 // import MuiSwitch from './components/MuiSwitch'
 // import MuiCheckbox from './components/MuiCheckbox'
@@ -14,6 +15,8 @@ import MuiAutocomplete from './components/MuiAutocomplete'
 const App = () => {
   return (
     <>
+     {/* These are Form Based Input Components */}
+
       {/* <MuiTypography/> */}
       {/* <MuiButton/> */}
       {/* <MuiButtonGroup/> */}
@@ -24,7 +27,10 @@ const App = () => {
       {/* <MuiCheckbox/> */}
       {/* <MuiSwitch/> */}
       {/* <MuiRatings/> */}
-      <MuiAutocomplete/>
+      {/* <MuiAutocomplete/> */}
+
+      {/* Layout Based Components  */}
+      <MuiBox/>
     </>
   )
 }
