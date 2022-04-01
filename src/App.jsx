@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiStack from './components/MuiStack'
+import MuiGrid from './components/MuiGrid'
+// import MuiStack from './components/MuiStack'
 // import MuiBox from './components/MuiBox'
 // import MuiAutocomplete from './components/MuiAutocomplete'
 // import MuiRatings from './components/MuiRatings'
@@ -32,7 +33,8 @@ const App = () => {
 
       {/* Layout Based Components  */}
       {/* <MuiBox/> */}
-      <MuiStack/>
+      {/* <MuiStack/> */}
+      <MuiGrid/>
     </>
   )
 }
