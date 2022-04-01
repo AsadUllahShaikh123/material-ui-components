@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiBox from './components/MuiBox'
+import MuiStack from './components/MuiStack'
+// import MuiBox from './components/MuiBox'
 // import MuiAutocomplete from './components/MuiAutocomplete'
 // import MuiRatings from './components/MuiRatings'
 // import MuiSwitch from './components/MuiSwitch'
@@ -30,7 +31,8 @@ const App = () => {
       {/* <MuiAutocomplete/> */}
 
       {/* Layout Based Components  */}
-      <MuiBox/>
+      {/* <MuiBox/> */}
+      <MuiStack/>
     </>
   )
 }
