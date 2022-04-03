@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiImageList from './components/MuiImageList'
+import MuiNavbar from './components/MuiNavbar'
+// import MuiImageList from './components/MuiImageList'
 // import MuiAccordion from './components/MuiAccordion'
 // import MuiCard from './components/MuiCard'
 // import MuiPaper from './components/MuiPaper'
@@ -36,13 +37,15 @@ const App = () => {
       {/* <MuiAutocomplete/> */}
 
       {/* Layout Based Components  */}
+
       {/* <MuiBox/> */}
       {/* <MuiStack/> */}
       {/* <MuiGrid/> */}
       {/* <MuiPaper/> */}
       {/* <MuiCard/> */}
       {/* <MuiAccordion/> */}
-      <MuiImageList/>
+      {/* <MuiImageList/> */}
+      <MuiNavbar/>
     </>
   )
 }
