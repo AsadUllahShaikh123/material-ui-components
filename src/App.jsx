@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiCard from './components/MuiCard'
+import MuiAccordion from './components/MuiAccordion'
+// import MuiCard from './components/MuiCard'
 // import MuiPaper from './components/MuiPaper'
 // import MuiGrid from './components/MuiGrid'
 // import MuiStack from './components/MuiStack'
@@ -38,7 +39,8 @@ const App = () => {
       {/* <MuiStack/> */}
       {/* <MuiGrid/> */}
       {/* <MuiPaper/> */}
-      <MuiCard/>
+      {/* <MuiCard/> */}
+      <MuiAccordion/>
     </>
   )
 }
