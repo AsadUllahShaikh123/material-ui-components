@@ -1,6 +1,7 @@
 import { Button, Menu, MenuItem } from "@mui/material";
 import React from "react";
 
+// In Mui docs under Utils we have Popover which is used to manage our Menu Items positioning.
 
 const MuiMenu = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
