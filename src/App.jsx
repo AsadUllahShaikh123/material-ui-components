@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiDrawer from './MuiDrawer'
+import MuiScreenDial from './components/MuiScreenDial'
+// import MuiDrawer from './MuiDrawer'
 // import MuiBreadcrumb from './components/MuiBreadcrumb'
 // import MuiLink from './components/MuiLink'
 // import MuiMenu from './components/MuiMenu'
@@ -56,7 +57,8 @@ const App = () => {
       {/* <MuiMenu/> */}
       {/* <MuiLink/> */}
       {/* <MuiBreadcrumb/> */}
-      <MuiDrawer/>
+      {/* <MuiDrawer/> */}
+      <MuiScreenDial/>
     </>
   )
 }
