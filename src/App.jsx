@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiBadge from './components/MuiBadge'
+import MuiList from './components/MuiList'
+// import MuiBadge from './components/MuiBadge'
 // import MuiAvatar from './components/MuiAvatar'
 // import MuiBottomNavigation from './components/MuiBottomNavigation'
 // import MuiScreenDial from './components/MuiScreenDial'
@@ -67,7 +68,8 @@ const App = () => {
       {/* Data Display Components */}
 
       {/* <MuiAvatar/> */}
-      <MuiBadge/>
+      {/* <MuiBadge/> */}
+      <MuiList/>
     </>
   )
 }
