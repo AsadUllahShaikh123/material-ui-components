@@ -1,6 +1,7 @@
 import { Mail } from "@mui/icons-material";
 import {
   Avatar,
+  Divider,
   List,
   ListItem,
   ListItemAvatar,
@@ -8,7 +9,7 @@ import {
   ListItemIcon,
   ListItemText,
 } from "@mui/material";
-import { Box } from "@mui/system";
+import { Box } from "@mui/material";
 import React from "react";
 
 /**
@@ -36,6 +37,7 @@ const MuiList = () => {
             <ListItemText primary="primary Text 1" />
           </ListItemButton>
         </ListItem>
+        <Divider/>
         <ListItem>
           <ListItemIcon>
             <ListItemAvatar>
@@ -46,6 +48,7 @@ const MuiList = () => {
           </ListItemIcon>
           <ListItemText primary="primary Text 2" />
         </ListItem>
+        <Divider/>
         <ListItem>
           <ListItemIcon>
             <ListItemAvatar>
