@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiChip from './components/MuiChip'
+import MuiTooltip from './components/MuiTooltip'
+// import MuiChip from './components/MuiChip'
 // import MuiList from './components/MuiList'
 // import MuiBadge from './components/MuiBadge'
 // import MuiAvatar from './components/MuiAvatar'
@@ -71,7 +72,8 @@ const App = () => {
       {/* <MuiAvatar/> */}
       {/* <MuiBadge/> */}
       {/* <MuiList/> */}
-      <MuiChip/>
+      {/* <MuiChip/> */}
+      <MuiTooltip/>
     </>
   )
 }
