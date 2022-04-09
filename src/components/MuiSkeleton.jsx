@@ -27,7 +27,6 @@ const MuiSkeleton = () => {
                 } 
                 </Typography>
             
-
           }
           {
             loading ? (

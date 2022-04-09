@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiSkeleton from './components/MuiSkeleton'
+import MuiLoadingButton from './components/MuiLoadingButton'
+// import MuiSkeleton from './components/MuiSkeleton'
 // import MuiProgress from './components/MuiProgress'
 // import MuiDialog from './components/MuiDialog'
 // import MuiAlert from './components/MuiAlert'
@@ -86,7 +87,11 @@ const App = () => {
       {/* <MuiAlert/> */}
       {/* <MuiDialog/> */}
       {/* <MuiProgress/> */}
-      <MuiSkeleton/>
+      {/* <MuiSkeleton/> */}
+
+      {/* @mui/lab library Components */}
+      
+      <MuiLoadingButton/>
     </>
   )
 }
