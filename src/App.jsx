@@ -1,5 +1,6 @@
 import React from 'react'
-import MuiDialog from './components/MuiDialog'
+import MuiProgress from './components/MuiProgress'
+// import MuiDialog from './components/MuiDialog'
 // import MuiAlert from './components/MuiAlert'
 // import MuiTable from './components/MuiTable'
 // import MuiTooltip from './components/MuiTooltip'
@@ -82,7 +83,8 @@ const App = () => {
       {/* Feedback components  */}
 
       {/* <MuiAlert/> */}
-      <MuiDialog/>
+      {/* <MuiDialog/> */}
+      <MuiProgress/>
     </>
   )
 }
