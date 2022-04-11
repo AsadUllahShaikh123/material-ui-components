@@ -1,5 +1,8 @@
-import React from 'react'
-import MuiDateTime from './components/MuiDateTime'
+import { LocalizationProvider } from "@mui/lab";
+import React from "react";
+import MuiDateTime from "./components/MuiDateTime";
+// import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
+import AdapterDateFns from '@date-io/date-fns'
 // import MuiLoadingButton from './components/MuiLoadingButton'
 // import MuiSkeleton from './components/MuiSkeleton'
 // import MuiProgress from './components/MuiProgress'
@@ -40,7 +43,7 @@ import MuiDateTime from './components/MuiDateTime'
 const App = () => {
   return (
     <>
-     {/* These are Form Based Input Components */}
+      {/* These are Form Based Input Components */}
 
       {/* <MuiTypography/> */}
       {/* <MuiButton/> */}
@@ -91,11 +94,13 @@ const App = () => {
       {/* <MuiSkeleton/> */}
 
       {/* @mui/lab library Components */}
-      
-      {/* <MuiLoadingButton/> */}
-      <MuiDateTime/>
-    </>
-  )
-}
 
-export default App
+      {/* <MuiLoadingButton/> */}
+      <LocalizationProvider dateAdapter={AdapterDateFns}>
+        <MuiDateTime />
+      </LocalizationProvider>
+    </>
+  );
+};
+
+export default App;

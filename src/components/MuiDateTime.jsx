@@ -1,8 +1,19 @@
-import React from 'react'
+import { DatePicker } from '@mui/lab';
+import { TextField } from '@mui/material';
+import React, { useState } from 'react'
 
 const MuiDateTime = () => {
+  let [value,setValue] = useState(null);
+  console.log(value && value.toLocaleDateString())
   return (
-    <div>MuiDateTime</div>
+    <DatePicker
+        label="Basic example"
+        value={value}
+        onChange={(newValue) => {
+          setValue(newValue);
+        }}
+        renderInput={(params) => <TextField {...params} />}
+      />
   )
 }
 
