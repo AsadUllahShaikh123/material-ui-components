@@ -1,8 +1,9 @@
 import { LocalizationProvider } from "@mui/lab";
 import React from "react";
-import MuiDateTime from "./components/MuiDateTime";
+// import MuiDateTime from "./components/MuiDateTime";
 // import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import AdapterDateFns from '@date-io/date-fns'
+import MuiDateRange from "./components/MuiDateRange";
 // import MuiLoadingButton from './components/MuiLoadingButton'
 // import MuiSkeleton from './components/MuiSkeleton'
 // import MuiProgress from './components/MuiProgress'
@@ -96,9 +97,14 @@ const App = () => {
       {/* @mui/lab library Components */}
 
       {/* <MuiLoadingButton/> */}
+
+
       <LocalizationProvider dateAdapter={AdapterDateFns}>
-        <MuiDateTime />
+        {/* <MuiDateTime /> */}
+        <MuiDateRange/>
       </LocalizationProvider>
+
+
     </>
   );
 };
